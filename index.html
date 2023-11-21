@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api practice</title>
+
+    <style>
+        .post {
+            background-color: #faffad;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button onclick="loadData()">load data</button>
+    <button onclick="loadData2()">load data2</button>
+
+    <!-- get user name using fetch function from data -->
+    <button onclick="getData()">Get Data</button>
+    <button onclick="anotherData()">Get Another Data</button>
+    <button onclick="fetchData()">Post create</button>
+
+
+    <!-- connected of Get Data button -->
+    <div>
+        <ul id="put-li">
+
+        </ul>
+    </div>
+
+    <!-- connected of Get another Data button -->
+    <div>
+        <ul id="2nd-ul">
+
+        </ul>
+    </div>
+
+
+    <main>
+        <!-- post container -->
+        <section>
+            <div id="post-container">
+
+            </div>
+        </section>
+
+        <!-- comment section -->
+        <section>
+            <button onclick="CommentData()">Comment</button>
+            <div id="conmment-container">
+
+            </div>
+        </section>
+    </main>
+    <!-- javaScript -->
+    <script src="./js/fetch.js"></script>
+</body>
+
+</html>
